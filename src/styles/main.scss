@@ -1,0 +1,55 @@
+// ==============================================
+// NORDECO STORE - Main Stylesheet
+// ==============================================
+// NOTE: Using @import throughout for simplicity.
+// @use/@forward have strict ordering rules that complicate Bootstrap integration.
+
+// ---------------------------------------------
+// 1. Custom Variables (must be first for Bootstrap overrides)
+// ---------------------------------------------
+@import 'variables';
+
+// ---------------------------------------------
+// 2. Bootstrap
+// ---------------------------------------------
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark'; // Dark mode support
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// Bootstrap Components (selective import for smaller bundle)
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/dropdown';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/card';
+@import 'bootstrap/scss/badge';
+@import 'bootstrap/scss/alert';
+@import 'bootstrap/scss/modal';
+@import 'bootstrap/scss/spinners';
+
+// Bootstrap Utilities API
+@import 'bootstrap/scss/utilities/api';
+
+// ---------------------------------------------
+// 3. Custom Mixins & Base Styles
+// ---------------------------------------------
+@import 'mixins';
+@import 'base';
+
+// ---------------------------------------------
+// 4. Component Styles (BEM)
+// Will be imported as components are created
+// ---------------------------------------------
+// @import 'components/product-card';
+// @import 'components/hero-section';
+// etc.

@@ -1,0 +1,168 @@
+// ==============================================
+// NORDECO STORE - Base Styles
+// ==============================================
+
+@import 'variables';
+@import 'mixins';
+
+// ---------------------------------------------
+// CSS Reset / Normalize additions
+// ---------------------------------------------
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  @include body-text;
+  background-color: $bg-light;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ---------------------------------------------
+// App Shell Layout
+// ---------------------------------------------
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// Main content area - ensures footer stays at bottom
+#main-content {
+  flex: 1;
+  min-height: 50vh;
+}
+
+// ---------------------------------------------
+// Typography Base
+// ---------------------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-style;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// ---------------------------------------------
+// Links
+// ---------------------------------------------
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: $transition-fast;
+
+  &:hover {
+    color: $color-primary-dark;
+    text-decoration: underline;
+  }
+
+  @include focus-visible;
+}
+
+// ---------------------------------------------
+// Images
+// ---------------------------------------------
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// ---------------------------------------------
+// Lists
+// ---------------------------------------------
+ul,
+ol {
+  padding-left: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// ---------------------------------------------
+// Forms
+// ---------------------------------------------
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+// ---------------------------------------------
+// Focus styles for accessibility
+// ---------------------------------------------
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid $color-primary;
+  outline-offset: 2px;
+}
+
+// ---------------------------------------------
+// Selection
+// ---------------------------------------------
+::selection {
+  background-color: $color-primary;
+  color: $text-light;
+}
+
+// ---------------------------------------------
+// Skip Link (Accessibility)
+// ---------------------------------------------
+.skip-link {
+  @include skip-link;
+}
+
+// ---------------------------------------------
+// Screen Reader Only
+// ---------------------------------------------
+.sr-only {
+  @include visually-hidden;
+}

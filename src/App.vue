@@ -1,0 +1,18 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import SkipLink from '@/components/common/SkipLink.vue'
+import TheHeader from '@/components/layout/TheHeader.vue'
+import TheFooter from '@/components/layout/TheFooter.vue'
+import { useLocaleHead } from '@/composables/useLocaleHead'
+
+useLocaleHead()
+</script>
+
+<template>
+  <div class="app">
+    <SkipLink />
+    <TheHeader />
+    <RouterView />
+    <TheFooter />
+  </div>
+</template>

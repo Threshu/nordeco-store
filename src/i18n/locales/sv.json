@@ -1,0 +1,135 @@
+{
+  "common": {
+    "loading": "Laddar...",
+    "error": "Ett fel uppstod",
+    "retry": "Försök igen",
+    "back": "Tillbaka",
+    "home": "Hem",
+    "search": "Sök",
+    "close": "Stäng",
+    "open": "Öppna",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "add": "Lägg till",
+    "remove": "Ta bort",
+    "yes": "Ja",
+    "no": "Nej",
+    "or": "eller",
+    "and": "och",
+    "comingSoon": "Kommer snart..."
+  },
+  "nav": {
+    "home": "Hem",
+    "products": "Produkter",
+    "blog": "Blogg",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "cart": "Varukorg",
+    "menu": "Meny",
+    "skipToContent": "Hoppa till huvudinnehåll"
+  },
+  "home": {
+    "hero": {
+      "title": "Välkommen till Nordeco Store",
+      "subtitle": "Upptäck nordiska miljövänliga produkter",
+      "cta": "Visa produkter"
+    },
+    "featured": {
+      "title": "Utvalda produkter",
+      "viewAll": "Visa alla"
+    }
+  },
+  "products": {
+    "title": "Våra produkter",
+    "filter": "Filtrera",
+    "sort": "Sortera",
+    "noProducts": "Inga produkter att visa",
+    "addToCart": "Lägg i varukorgen",
+    "outOfStock": "Slut i lager",
+    "inStock": "I lager",
+    "price": "Pris",
+    "category": "Kategori",
+    "sustainability": "Hållbarhet",
+    "details": "Detaljer",
+    "product": "Produkt"
+  },
+  "cart": {
+    "title": "Din varukorg",
+    "empty": "Din varukorg är tom",
+    "total": "Totalt",
+    "checkout": "Gå till kassan",
+    "continueShopping": "Fortsätt handla",
+    "remove": "Ta bort från varukorgen",
+    "quantity": "Antal",
+    "itemCount": "produkter | produkt | produkter"
+  },
+  "blog": {
+    "title": "Blogg",
+    "readMore": "Läs mer",
+    "published": "Publicerad",
+    "author": "Författare",
+    "tags": "Taggar",
+    "noPosts": "Inga inlägg att visa",
+    "article": "Artikel",
+    "post": "Inlägg"
+  },
+  "about": {
+    "title": "Om oss",
+    "mission": "Vårt uppdrag",
+    "values": "Våra värderingar"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "name": "Fullständigt namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "send": "Skicka",
+    "success": "Meddelandet har skickats",
+    "error": "Det gick inte att skicka meddelandet"
+  },
+  "footer": {
+    "shop": "Butik",
+    "company": "Företag",
+    "help": "Hjälp",
+    "allProducts": "Alla produkter",
+    "newArrivals": "Nyheter",
+    "bestsellers": "Bästsäljare",
+    "sale": "Rea",
+    "ourStory": "Vår historia",
+    "sustainability": "Hållbarhet",
+    "careers": "Karriär",
+    "faq": "FAQ",
+    "shipping": "Frakt",
+    "returns": "Returer",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "copyright": "© {year} Nordeco Store. Alla rättigheter förbehållna.",
+    "description": "Skandinavisk design möter hållbarhet. Upptäck produkter som kombinerar estetik med miljöomsorg."
+  },
+  "errors": {
+    "notFound": {
+      "title": "Sidan hittades inte",
+      "message": "Tyvärr kan vi inte hitta sidan du letar efter.",
+      "backHome": "Tillbaka till startsidan"
+    },
+    "general": {
+      "title": "Något gick fel",
+      "message": "Försök att uppdatera sidan eller kontakta oss om problemet kvarstår.",
+      "details": "Feldetaljer (för utvecklare)"
+    }
+  },
+  "a11y": {
+    "skipLink": "Hoppa till huvudinnehåll",
+    "menuToggle": "Växla navigeringsmeny",
+    "closeMenu": "Stäng meny",
+    "openMenu": "Öppna meny",
+    "mainNav": "Huvudnavigering",
+    "mobileNav": "Mobilnavigering",
+    "cartItems": "Varukorg ({count} produkter)",
+    "loading": "Laddar",
+    "languageSelector": "Välj språk"
+  }
+}

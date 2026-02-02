@@ -1,0 +1,135 @@
+{
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "retry": "Spróbuj ponownie",
+    "back": "Wróć",
+    "home": "Strona główna",
+    "search": "Szukaj",
+    "close": "Zamknij",
+    "open": "Otwórz",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "add": "Dodaj",
+    "remove": "Usuń",
+    "yes": "Tak",
+    "no": "Nie",
+    "or": "lub",
+    "and": "i",
+    "comingSoon": "Wkrótce..."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "products": "Produkty",
+    "blog": "Blog",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "cart": "Koszyk",
+    "menu": "Menu",
+    "skipToContent": "Przejdź do głównej treści"
+  },
+  "home": {
+    "hero": {
+      "title": "Witaj w Nordeco Store",
+      "subtitle": "Odkryj skandynawskie produkty przyjazne dla środowiska",
+      "cta": "Zobacz produkty"
+    },
+    "featured": {
+      "title": "Wyróżnione produkty",
+      "viewAll": "Zobacz wszystkie"
+    }
+  },
+  "products": {
+    "title": "Nasze produkty",
+    "filter": "Filtruj",
+    "sort": "Sortuj",
+    "noProducts": "Brak produktów do wyświetlenia",
+    "addToCart": "Dodaj do koszyka",
+    "outOfStock": "Brak w magazynie",
+    "inStock": "Dostępny",
+    "price": "Cena",
+    "category": "Kategoria",
+    "sustainability": "Ekologia",
+    "details": "Szczegóły",
+    "product": "Produkt"
+  },
+  "cart": {
+    "title": "Twój koszyk",
+    "empty": "Twój koszyk jest pusty",
+    "total": "Suma",
+    "checkout": "Przejdź do kasy",
+    "continueShopping": "Kontynuuj zakupy",
+    "remove": "Usuń z koszyka",
+    "quantity": "Ilość",
+    "itemCount": "produktów | produkt | produkty"
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Czytaj więcej",
+    "published": "Opublikowano",
+    "author": "Autor",
+    "tags": "Tagi",
+    "noPosts": "Brak postów do wyświetlenia",
+    "article": "Artykuł",
+    "post": "Post"
+  },
+  "about": {
+    "title": "O nas",
+    "mission": "Nasza misja",
+    "values": "Nasze wartości"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "name": "Imię i nazwisko",
+    "email": "Email",
+    "message": "Wiadomość",
+    "send": "Wyślij",
+    "success": "Wiadomość została wysłana",
+    "error": "Nie udało się wysłać wiadomości"
+  },
+  "footer": {
+    "shop": "Sklep",
+    "company": "Firma",
+    "help": "Pomoc",
+    "allProducts": "Wszystkie produkty",
+    "newArrivals": "Nowości",
+    "bestsellers": "Bestsellery",
+    "sale": "Wyprzedaż",
+    "ourStory": "Nasza historia",
+    "sustainability": "Zrównoważony rozwój",
+    "careers": "Kariera",
+    "faq": "FAQ",
+    "shipping": "Dostawa",
+    "returns": "Zwroty",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "copyright": "© {year} Nordeco Store. Wszelkie prawa zastrzeżone.",
+    "description": "Skandynawski design spotyka zrównoważony rozwój. Odkryj produkty, które łączą estetykę z troską o środowisko."
+  },
+  "errors": {
+    "notFound": {
+      "title": "Strona nie znaleziona",
+      "message": "Przepraszamy, nie możemy znaleźć strony której szukasz.",
+      "backHome": "Wróć na stronę główną"
+    },
+    "general": {
+      "title": "Coś poszło nie tak",
+      "message": "Spróbuj odświeżyć stronę lub skontaktuj się z nami, jeśli problem będzie się powtarzał.",
+      "details": "Szczegóły błędu (dla developerów)"
+    }
+  },
+  "a11y": {
+    "skipLink": "Przejdź do głównej treści",
+    "menuToggle": "Przełącz menu nawigacji",
+    "closeMenu": "Zamknij menu",
+    "openMenu": "Otwórz menu",
+    "mainNav": "Nawigacja główna",
+    "mobileNav": "Nawigacja mobilna",
+    "cartItems": "Koszyk ({count} produktów)",
+    "loading": "Trwa ładowanie",
+    "languageSelector": "Wybierz język"
+  }
+}
