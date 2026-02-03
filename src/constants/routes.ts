@@ -49,7 +49,6 @@ export const LOCALIZED_PATHS: Record<string, Record<SupportedLocale, string>>={
     en: '/cart',
     sv: '/varukorg',
   },
-  // Footer pages
   careers: {
     pl: '/kariera',
     en: '/careers',
@@ -91,6 +90,12 @@ export const ROUTE_NAMES={
   ABOUT: 'about',
   CONTACT: 'contact',
   CART: 'cart',
+  CAREERS: 'careers',
+  FAQ: 'faq',
+  SHIPPING: 'shipping',
+  RETURNS: 'returns',
+  TERMS: 'terms',
+  PRIVACY: 'privacy',
   NOT_FOUND: 'not-found',
 } as const;
 

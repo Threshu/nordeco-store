@@ -73,6 +73,12 @@ export function useLocalizedRouter () {
       [ROUTE_NAMES.ABOUT]: 'about',
       [ROUTE_NAMES.CONTACT]: 'contact',
       [ROUTE_NAMES.CART]: 'cart',
+      [ROUTE_NAMES.CAREERS]: 'careers',
+      [ROUTE_NAMES.FAQ]: 'faq',
+      [ROUTE_NAMES.SHIPPING]: 'shipping',
+      [ROUTE_NAMES.RETURNS]: 'returns',
+      [ROUTE_NAMES.TERMS]: 'terms',
+      [ROUTE_NAMES.PRIVACY]: 'privacy',
     };
 
     const pathKey=currentRouteName? routeNameToPathKey[currentRouteName]:'home';
