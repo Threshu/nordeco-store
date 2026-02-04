@@ -12,7 +12,11 @@ useLocaleHead()
   <div class="app">
     <SkipLink />
     <TheHeader />
-    <RouterView />
+    <RouterView v-slot="{ Component }">
+      <Transition name="page" mode="out-in">
+        <component :is="Component" />
+      </Transition>
+    </RouterView>
     <TheFooter />
   </div>
 </template>
